@@ -1,2 +1,8 @@
-# python_qa_robot_part1
-Introduction to BDD and Robot
+# Introduction to BDD and Robot Framework
+
+### Links
+
+https://robotframework.org/
+
+https://en.wikipedia.org/wiki/Behavior-driven_development
+

@@ -26,6 +26,24 @@ Check search item in title google
     Verify Page Title Contains    Робот Фрэймворк
 
 
+Check search item in title duckduckgo
+    Go To    https://duckduckgo.com
+    Input And Submit Search    name=q    ${REQUEST}
+    Verify Page Title Contains    Робот Фрэймворк
+
+
+Check search item in title bing
+    Go To    https://www.bing.com
+    Input And Submit Search    name=q    ${REQUEST}
+    Verify Page Title Contains    Робот Фрэймворк
+
+
+Check search item in title go.mail
+    Go To    https://go.mail.ru
+    Input And Submit Search    name=q    ${REQUEST}
+    Verify Page Title Contains    Робот Фреймворк
+
+
 *** Keywords ***
 Verify Page Title Contains    [Arguments]    ${VALUE}
     ${TITLE}    Get Title

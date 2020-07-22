@@ -131,3 +131,4 @@ dmypy.json
 Results/log.html
 Results/output.xml
 Results/report.html
+Results/*.png

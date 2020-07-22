@@ -20,4 +20,4 @@ Input And Submit Search    [Arguments]    ${SELECTOR}    ${VALUE}
 Check Search Engine    [Arguments]   ${ENGINE}    ${SEARCH_FIELD}    ${REQUEST}
     Go To    https://${ENGINE}
     Input And Submit Search    ${SEARCH_FIELD}    ${REQUEST}
-    Verify Page Title Contains    ${REQUEST}
+    Wait Until Keyword Succeeds    3 sec    1 sec    Verify Page Title Contains    ${REQUEST}
